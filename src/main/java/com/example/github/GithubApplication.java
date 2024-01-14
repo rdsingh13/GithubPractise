@@ -16,4 +16,9 @@ public class GithubApplication {
 	public String helloWorld(){
 		return "Hello  World!!!";
 	}
+
+	@GetMapping("/hi")
+	public String hi(){
+		return "Hi!!!";
+	}
 }
