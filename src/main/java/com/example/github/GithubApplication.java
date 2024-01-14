@@ -21,4 +21,8 @@ public class GithubApplication {
 	public String hi(){
 		return "Hi!!!";
 	}
+	@GetMapping("/rd")
+	public String rd(){
+		return "hello my name is rd";
+	}
 }
